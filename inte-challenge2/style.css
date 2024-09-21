@@ -1,0 +1,65 @@
+body{
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+}
+
+.grand-titre{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: white;
+}
+
+.imagedefond{
+    display: flex;
+}
+
+.imagedefond:hover{
+    opacity: 0.5;
+}
+
+.imageproject{
+    height: 400px;
+    width: 400px;
+}
+
+.imageproject:hover {
+    opacity: 0.5;
+}
+
+.Fiftyfifty {
+    flex-direction: row;
+}
+
+.Newjeans {
+    text-align: left;
+}
+
+.Black-pink{
+    
+}
+
+
+.pdp{
+    height: 100px;
+    width: 75px;
+}
+
+.pdp:hover{
+    opacity: 0.5;
+}
+
+.grandes-sections {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+
+}

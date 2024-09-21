@@ -5,11 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Mon Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <h1>MON PORTFOLIO</h1>
+    <h1 class="grand-titre">MON PORTFOLIO</h1>
     <header>
         <h1>MON PORTFOLIO</h1>
         <form>
@@ -19,7 +19,7 @@
             <input type="button" value="CONTACT" />
         </form>
         <section>
-            <a><img src="images/Canada.jpg" alt="Image de fond" ></a>
+            <a><img class="imagedefond" src="images/Leonardo_da_Vinci_-_The_first_known_drawing_of_Leonard_de_Vince_(Leonardo_da_Vinci)_(1452-1519)_Lan_-_(MeisterDrucke-1040739).jpg" alt="Image de fond" ></a>
         </section>
         <div>
             <h1>LE GOFF ERWAN</h1>
@@ -27,23 +27,21 @@
     </header>
     <section>
         <h1>PROJETS RÉALISÉS</h1>
-        <section>
+        <section class="grandes-sections">
             <article>
-                <a><img src="images/Manhattanproject.jpg" alt="Projet Manhattan"></a>
+                <a><img class="imageproject" src="images/Manhattanproject.jpg" alt="Projet Manhattan"></a>
                 <h1>PROJET 1</h1>
                 <p>Stage de BTS avec réalisation de projets en équipe.</p>
                 <a><input type="button" value="En savoir plus" /></a>
             </article>
             <article>
-                <a><img src="images/Annunaki.jpg" alt="Début de la civilisation"></a>
+                <a><img class="imageproject" src="images/Annunaki.jpg" alt="Début de la civilisation"></a>
                 <h1>PROJET 2</h1>
                 <p>Rapport de stage en anglais, recolement de réseau sous terrain avec SGDS International.</p>
-                <a<input type="button" value="En savoir plus" /></a>
+                <a><input type="button" value="En savoir plus" /></a>
             </article>
             <article>
-                <div>
-                    <a><img src="images/Cowboybepop.jpg" alt="Mes anciens camarades de classe"></a>
-                </div>
+                <a><img class="imageproject" src="images/Cowboybepop.jpg" alt="Mes anciens camarades de classe"></a>
                 <h1>PROJET 3</h1>
                 <p>Projet en condition professionnelle à Corbeil Essonne et présentation de la maquette 3D.</p>
                 <a><input type="button" value="En savoir plus" /></a>
@@ -51,21 +49,21 @@
         </section>
     </section>
     <section>
-        <div>
-            <h1>Études</h1>
+        <section class="Fifty-fifty">
             <div>
-                <a><img src="images/Big Boss.jpg" alt="Snake eater"></a>
+                <h1>Études</h1>
+                <a><img class="pdp" src="images/Big Boss.jpg" alt="Snake eater"></a>
             </div>
-        </div>
-        <div>
-            <h2>Nom: Le Goff</h2>
-            <h2>Prénom: Erwan</h2>
-            <h2>Âge: 24 ans</h2>
-            <h2>elegoff296@gmail.com</h2>
-        </div>
-        <div>
-            <h2>07 67 33 51 17</h2>
-        </div>
+            <div class="Newjeans">
+                <h2>Nom: Le Goff</h2>
+                <h2>Prénom: Erwan</h2>
+                <h2>Âge: 24 ans</h2>
+                <h2>elegoff296@gmail.com</h2>
+            </div>
+            <div>
+                <h2>07 67 33 51 17</h2>
+            </div>
+        </section>
         <section>
             <article>
                 <h1>2022</h1>
@@ -114,20 +112,17 @@
     <footer>
         <article>
             <div>
-                <h1>CONTACT</h1>
-                <label for= "Nom et Prénom">Nom et Prénom :</label>
-                <input type="texte" id="pseudo">
+                <a><label for= "Nom et Prénom">Nom et Prénom :</label>
+                <input type="texte" id="pseudo"></a>
             </div>
             <div>
-                <h1>CONTACT</h1>
-                <label for= "Email">Email:</label>
-                <input type="email" id="mail">
+                <a><label for= "Email">Email:</label>
+                <input type="email" id="mail"></a>
             </div>
         </article>
         <article>
             <div>
-                <label for= "Message">Message</label>
-                <input type="texte" id="message">
+                <textarea name="message" rows="4" cols="50" placeholder="Message"></textarea>
             </div>
             <input type="button" value="Envoyer"/>
         </article>
