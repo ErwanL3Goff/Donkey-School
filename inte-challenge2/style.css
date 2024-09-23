@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    width: auto;
+}
+
+.grand-titre{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+.imagedefond{
+    width: auto;
+    height: 400px;
+}
+
+.imagedefond:hover{
+    opacity: 0.5;
+}
+
+.imageproject{
+    height: 100px;
+    width: 100px;
+}
+
+.imageproject:hover {
+    opacity: 0.5;
+}
+
+.speach {
+    height: 70px;
+    width: auto;
+}
+
+.Fiftyfifty {
+
+}
+
+.Newjeans {
+    display: flex;
+    flex-direction: column;
+    align-items: start
+}
+
+.Black-pink{
+    
+}
+
+
+.pdp{
+    display: flex;
+    justify-content: start;
+    height: 150px;
+    width: 97px;
+}
+
+.pdp:hover{
+    opacity: 0.5;
+}
+
+.grandes-sections {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+
+}
+
+
+
+@media screen and (min-width: 1080px) {
+    
+}
