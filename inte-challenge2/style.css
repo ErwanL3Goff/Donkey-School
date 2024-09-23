@@ -1,8 +1,6 @@
 body{
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 10px;
+    text-align: center;
+    width: auto;
 }
 
 .grand-titre{
@@ -11,13 +9,11 @@ body{
 
 header{
     text-align: center;
-    padding: 20px 0;
-    background-color: #007BFF;
-    color: white;
 }
 
 .imagedefond{
-    display: flex;
+    width: auto;
+    height: 400px;
 }
 
 .imagedefond:hover{
@@ -25,20 +21,27 @@ header{
 }
 
 .imageproject{
-    height: 400px;
-    width: 400px;
+    height: 100px;
+    width: 100px;
 }
 
 .imageproject:hover {
     opacity: 0.5;
 }
 
+.speach {
+    height: 70px;
+    width: auto;
+}
+
 .Fiftyfifty {
-    flex-direction: row;
+
 }
 
 .Newjeans {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: start
 }
 
 .Black-pink{
@@ -47,8 +50,10 @@ header{
 
 
 .pdp{
-    height: 100px;
-    width: 75px;
+    display: flex;
+    justify-content: start;
+    height: 150px;
+    width: 97px;
 }
 
 .pdp:hover{
@@ -62,4 +67,10 @@ header{
 
 footer{
 
+}
+
+
+
+@media screen and (min-width: 1080px) {
+    
 }
