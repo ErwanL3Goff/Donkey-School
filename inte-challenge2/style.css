@@ -65,10 +65,27 @@ header{
     flex-direction: row;
 }
 
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagearticle {
+    height: 200px;
+    width: 190px;
+}
+
+
 footer{
 
 }
 
+.send_for_me {
+    text-align: center;
+    height: 350px;
+    width: auto;
+    
+}
 
 
 @media screen and (min-width: 1080px) {

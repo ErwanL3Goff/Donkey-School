@@ -9,7 +9,7 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <h1 class="grand-titre">MON PORTFOLIO</h1>
+    <p>MON PORTFOLIO</p>
     <header>
         <h1>MON PORTFOLIO</h1>
         <form>
@@ -74,29 +74,30 @@
     </section>
     <section>
         <h1>ARTICLES</h1>
-        <article>
-            <div>
-                <img src="images/Pointpresse.png" alt="Être productif avec le sourir">
-                <h2>Article 2</h2>
-                <p>Comment je me suis adapté à la vie professionnelle...</p>
-                <from>
-                    <input type="button" value="Lire"/>
-                    <input type="button" value="Commentaires" />
-                </from>
-            </div>
-        </article>
-        <article>
-            <div>
-                <img src="images/Napopremier.jpg" alt="Mes ambitions">
-                <h2>Article 1</h2>
-                <p>Mes objectifs professionnelles...</p>
-                <from>
-                    <input type="button" value="Lire" />
-                    <input type="button" value="Commentaires" />
-                </from>
-            </div>
-        </article>
-        <h2>monportfolio.com</h2>
+        <div class="articles">
+            <article>
+                <div>
+                    <img class="imagearticle" src="images/Pointpresse.png" alt="Être productif avec le sourir">
+                    <h2>Article 2</h2>
+                    <p class="speach">Comment je me suis adapté à la vie professionnelle...</p>
+                    <from>
+                        <input type="button" value="Lire"/>
+                        <input type="button" value="Commentaires" />
+                    </from>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img class="imagearticle" src="images/Napopremier.jpg" alt="Mes ambitions">
+                    <h2>Article 1</h2>
+                    <p>Mes objectifs professionnelles...</p>
+                    <from>
+                        <input type="button" value="Lire" />
+                        <input type="button" value="Commentaires" />
+                    </from>
+                </div>
+            </article>
+        </div>
     </section>
     <footer>
         <article>
@@ -111,10 +112,11 @@
         </article>
         <article>
             <div>
-                <textarea name="message" rows="4" cols="50" placeholder="Message"></textarea>
+                <textarea class="send_for_me" name="message" rows="4" cols="50" placeholder="Message"></textarea>
             </div>
             <input type="button" value="Envoyer"/>
         </article>
     </footer>
+    <p>monportfolio.com</p>
 </body>
 </html>
