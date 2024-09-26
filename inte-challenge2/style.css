@@ -24,7 +24,6 @@ nav{
 header{
     text-align: center;
     width: auto;
-    background-color: ;
 }
 
 .Contenaire1{
@@ -36,7 +35,7 @@ header{
     text-align: center;
     height: 300px;
     width: auto;
-    background-image: url(https://i.pinimg.com/originals/11/3c/37/113c37e46e35619ae54f555f1d7cc92e.gif) ;
+    background-image: url('images/DMC5.gif') ;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -164,6 +163,167 @@ footer{
     width: 500px;
 }
 
-@media screen and (min-width: 1080px) {
-
+@media screen and (max-width: 652px) {
+    h1{
+        color: white;
+    }
+    
+    h2{
+        color: white;
+    }
+    
+    p{
+        color: white;
+    }
+    
+    body{
+        width: 500px;
+        background: linear-gradient(black, red, black, red, black, red);
+    }
+    
+    nav{
+        text-align: center;
+        width: auto;
+        background-color: white;
+    }
+    
+    header{
+        text-align: center;
+        width: auto;
+    }
+    
+    .Contenaire1{
+        text-align: center;
+        background: linear-gradient(grey, black);
+    }
+    
+    .Sonicboom {
+        text-align: center;
+        background-image: url('images/DMC5.gif') ;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .grand-titre{
+        text-align: center;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    .imagedefond{
+        margin: center;
+        width: auto;
+        height: 400px;
+    }
+    
+    .imagedefond:hover{
+        opacity: 0.5;
+    }
+    
+    .imageproject{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .imageproject:hover {
+        opacity: 0.5;
+    }
+    
+    .speach {
+        height: 70px;
+        width: auto;
+    }
+    
+    .Fiftyfifty {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Newjeans {
+        width: auto;
+        height: 20px;
+    }
+    
+    .Metalgear{
+        display: flex;
+        flex-direction: column;
+        margin-left: 32%;
+        color: white;
+        margin-top: -30%;
+    }
+    
+    .Black-pink{
+        text-align: center;
+    }
+    
+    .Dj-Snake{
+        position: relative;
+        left: -5%;
+        margin-top: 50%;
+        bottom: 80%;
+        color: white;
+    }
+    
+    .pdp{
+        display: flex;
+        justify-content: start;
+        height: 150px;
+        width: 97px;
+    }
+    
+    .pdp:hover{
+        opacity: 0.5;
+        transition: filter 0.5s ease;
+    }
+    
+    .grandes-sections {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: linear-gradient(grey, black);
+    }
+    
+    
+    
+    .imagearticle {
+        height: 200px;
+        width: 190px;
+    }
+    
+    img {
+        border-radius: 6px;
+    }
+    
+    footer{
+        width: auto;
+        text-align: center;
+    }
+    
+    .send_for_me {
+        height: 350px;
+        width: auto;
+    }
+    
+    .end{
+        text-align: center;
+        color: white;
+    }
+    
+    .Capybara{
+        text-align: left;
+    }
+    
+    .After_party {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
 }
